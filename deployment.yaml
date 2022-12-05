@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: devops-challenge
-        image: devtraining/sample-web-app:latest
+        image: devtraining/sample-web-app:14
         #command: ["/bin/sh"]
         #args: ["-c","sh /usr/local/tomcat/bin/startup.sh;while true; do echo hello; sleep 10;done"]
         command: ["/bin/sh"]
